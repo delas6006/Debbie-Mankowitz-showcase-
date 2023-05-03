@@ -1,5 +1,5 @@
 # Hamburger API DOC
-This is the new APP for customers for online orders for General Putnam Motel Diner (GPMD). 
+This API is for creating a new APP for General Putnam Motel Diner (GPMD).  Customers of GPMD can use the app to order food. This initial offering is a Proof of Concept (PoC). 
 
 This App is intended for customers as a preliminary version for take-out hamburger meals.
 If the App becomes popular and easy to use then GPMD will extend their APP to include other offerings on their menu.
