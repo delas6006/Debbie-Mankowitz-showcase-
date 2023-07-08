@@ -26,21 +26,13 @@ General Putnam Motel Diner API Guide
 ```mermaid
 graph TD;
 A[(START)]-->B[Order Burger]
-B -->C{What type of burger do you want?}
-C -->D{Chicken Beef or Veg}
-D -->E{How many pattys do you want?}
-E -->Two-->F
-F -->G{Toppings?}
-H -->I[lettuce tomato relish]
-I -->J{Bun choice- white wholewheat gluten free?}
-K -->L[Gluten free]
-L -->M{Sauces-mayo ketchup mustard?}
-M -->N[Yes]
-N -->O[Mayo]
-P -->Q{Drinks?}
-Q -->R[Yes]
-R -->S[Diet Coke]
-T[(ORDER END)]
+B -->C{Burger type?}
+C -->D{How many pattys?}
+D -->E{Toppings?}
+E -->F{Bun choice}
+F -->G{Sauces?}
+G -->H{Drinks?}
+H[(ORDER END)]
 
 ```
 curl --location --request POST 'https://api.gpmd.com' \ 
