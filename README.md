@@ -26,7 +26,7 @@ General Putnam Motel Diner API Guide
 ```mermaid
 graph TD;
 A[(START)]-->B[Order Burger]
-B -->C{Burger type?}
+B -->C[Choose burger type]
 C -->D{How many pattys?}
 D -->E{Toppings?}
 E -->F{Bun choice}
