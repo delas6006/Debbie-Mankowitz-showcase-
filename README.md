@@ -28,7 +28,7 @@ graph TD;
 A[(START)]-->B[Order Burger]
 B -->C[Choose burger type]
 C -->D[Choose number of patties]
-D -->E{Toppings?}
+D -->E[Choose toppings]
 E -->F{Bun choice}
 F -->G{Sauces?}
 G -->H{Drinks?}
