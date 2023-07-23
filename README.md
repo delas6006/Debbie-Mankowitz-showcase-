@@ -30,7 +30,7 @@ B -->C[Choose burger type]
 C -->D[Choose number of patties]
 D -->E[Choose toppings]
 E -->F{Bun choice}
-F -->G{Sauces?}
+F -->G[Choose your sauces]
 G -->H{Drinks?}
 H[(ORDER END)]
 
