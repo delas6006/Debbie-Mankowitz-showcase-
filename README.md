@@ -29,7 +29,7 @@ A[(START)]-->B[Order Burger]
 B -->C[Choose burger type]
 C -->D[Choose number of patties]
 D -->E[Choose toppings]
-E -->F{Bun choice}
+E -->F[Choose your bun]
 F -->G[Choose your sauces]
 G -->H{Drinks?}
 H[(ORDER END)]
