@@ -31,7 +31,7 @@ C -->D[Choose number of patties]
 D -->E[Choose toppings]
 E -->F[Choose your bun]
 F -->G[Choose your sauces]
-G -->H{Drinks?}
+G -->H[Choose your drinks?]
 H[(ORDER END)]
 
 ```
