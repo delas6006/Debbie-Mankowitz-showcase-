@@ -27,7 +27,7 @@ General Putnam Motel Diner API Guide
 graph TD;
 A[(START)]-->B[Order Burger]
 B -->C[Choose burger type]
-C -->D{How many pattys?}
+C -->D[Choose number of patties]
 D -->E{Toppings?}
 E -->F{Bun choice}
 F -->G{Sauces?}
